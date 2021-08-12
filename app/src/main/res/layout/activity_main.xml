@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    app:layoutDescription="@xml/activity_main_scene">
+
+    <ImageView
+        android:id="@+id/image_Video"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/title_Video"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/image_Video"
+        android:background="#2d2f31"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/paddingNormal"
+        android:text="@string/my_video_title"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image_Play_Video"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/image_Video"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/ic_baseline_play_arrow_24"
+        app:tint="@color/white" />
+<!--    <TextView-->
+<!--        android:id="@+id/textHello"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="20dp"-->
+<!--        android:text="Hello world"-->
+<!--        android:textSize="20sp"-->
+<!--        tools:layout_editor_absoluteX="135dp"-->
+<!--        tools:layout_editor_absoluteY="332dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textworld"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="20dp"-->
+<!--        android:text="Hello world"-->
+<!--        android:textSize="20sp"-->
+<!--        tools:layout_editor_absoluteX="135dp"-->
+<!--        tools:layout_editor_absoluteY="332dp"-->
+<!--        tools:text="shahlaa haider mahamed hussain"/>-->
+
+    <!--    <TextView-->
+<!--        android:id="@+id/text2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="20dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="in android studio"-->
+<!--        android:textSize="20sp"-->
+<!--        />-->
+
+    <!--    <ImageButton-->
+<!--        android:layout_width="44dp"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:paddingLeft="25dp"-->
+<!--        android:src="@drawable/ic_baseline_play_arrow_24" />-->
+
+    <!--    <android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello world"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="18dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:textSize="20sp"-->
+<!--        />-->
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
