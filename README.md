@@ -3,4 +3,4 @@
 </p>
 
 # 🚀 Motion Layout UI 💡
-this repository sample ui using Motion Layout in XML
+▪ this repository sample ui using Motion Layout in XML
