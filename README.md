@@ -4,3 +4,7 @@
 
 # 🚀 Motion Layout UI 💡
 ▪ this repository sample ui using Motion Layout in XML
+
+# 🙏 Credits
+This app was created as a part of my journey with The [The Chance](https://github.com/TheChance101).
+
